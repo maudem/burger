@@ -7,10 +7,10 @@ function printQuestionMarks(num){
     var arr = [];
 
     for (var i=0; i<num; i++){
-        arr.push('?')
-        };
+        arr.push('?');
+        }
     return arr.toString();
-};
+}
 
 function objToSql(ob){
     var arr = [];
@@ -23,7 +23,7 @@ function objToSql(ob){
         }    
 
         return arr.toString();
-    };
+    }
 
 //build orm to perform queries
 var orm = {
@@ -53,14 +53,17 @@ var orm = {
         });
      },
 
-     insertOne: function(table, col, vals, cb){
+     insertOne: function(table, cols, vals, cb){
          var queryString = 'INSERT INTO ' + table;
         queryString += ' (';
-		queryString += col.toString(); 
+		queryString += cols.toString(); 
 		queryString += ') ';
 		queryString += 'VALUES (';
 		queryString += printQuestionMarks(vals.length);
 		queryString += ') ';
+
+        console.log(queryString);
+        console.log(vals);
 
         connection.query(queryString, vals, function(err, result){
             if (err) {

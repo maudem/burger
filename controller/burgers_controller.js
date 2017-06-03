@@ -19,13 +19,13 @@ router.get('/index', function(req, res) {
     });
 });
 
-//route that posts a new, user-enetered burger name then uses a callback to redirect to /index 
-router.post('/burgers/insertOne/:id', function(req, res) {
+//route that posts a new, user-entered burger name then uses a callback to redirect to /index 
+router.post('/burgers/insertOne', function(req, res) {
     burger.insertOne(
         ['burger_name', 'devoured'],
         [req.body.name, false],
         function() {
-            res.redirect('/index')
+            res.redirect('/index');
         });
 
 });
