@@ -26,12 +26,9 @@ Now, open the application in your browser on port 8080 : URL: http://localhost:8
 Mmmm...Burgers!
 ## Demo
 Click [Here](https://agile-sierra-97663.herokuapp.com/index) to use the app online.
-<<<<<<< HEAD
+
 ![DEMO]("https://cloud.githubusercontent.com/assets/12129628/26758540/d3fa85bc-48ae-11e7-9400-51e0f9e7b99b.gif")
-=======
-<br>
-![DEMO](https://cloud.githubusercontent.com/assets/12129628/26758540/d3fa85bc-48ae-11e7-9400-51e0f9e7b99b.gif)
->>>>>>> f61b59f8a7287fa4d8339e677fb717bbf6619b17
+
 <br>
 ## Techs Used
 Front End: HTML/CSS, some Javascript, Handlebars
