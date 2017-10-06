@@ -27,7 +27,7 @@ Mmmm...Burgers!
 ## Demo
 Click [Here](https://agile-sierra-97663.herokuapp.com/index) to use the app online.
 
-![DEMO]("https://cloud.githubusercontent.com/assets/12129628/26758540/d3fa85bc-48ae-11e7-9400-51e0f9e7b99b.gif")
+![DEMO](https://cloud.githubusercontent.com/assets/12129628/26758540/d3fa85bc-48ae-11e7-9400-51e0f9e7b99b.gif)
 
 <br>
 ## Techs Used
